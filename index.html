@@ -29,7 +29,6 @@ h1{font:700 clamp(2.8rem,7vw,5rem)/1 var(--head);margin:0 0 1.25rem;letter-spaci
 .btns{display:flex;gap:.75rem;flex-wrap:wrap}
 .btn{display:inline-block;padding:.75rem 1.25rem;border-radius:.6rem;font-weight:600;text-decoration:none;border:2px solid var(--ink)}
 .btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
-.btn.teal{background:var(--teal);border-color:var(--teal);color:#fff}
 .btn:hover{transform:translateY(-2px)}
 .flow{width:100%;height:auto}
 .flow .node{fill:var(--surface);stroke:var(--ink);stroke-width:2}
@@ -73,14 +72,14 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
 <body>
 <div class="wrap">
 <header class="top"><strong>Ahmed Gamal</strong>
-<nav aria-label="Sections"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="https://ahmedgamal474.github.io/N8nProtfolio/" target="_blank" rel="noopener">n8n Portfolio</a><a href="#contact">Contact</a></nav></header>
+<nav aria-label="Sections"><a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav></header>
 
 <main>
 <div class="hero">
 <div>
 <h1>I build workflows that run themselves.</h1>
 <p class="lede">I'm Ahmed Gamal, a Computer Science student at Ain Shams University, specializing in AI automation with n8n, APIs, and agent-based systems.</p>
-<div class="btns"><a class="btn primary" href="https://ahmedgamal474.github.io/N8nProtfolio/" target="_blank" rel="noopener">n8n Portfolio</a><a class="btn" href="#contact">Get in touch</a><a class="btn" href="https://www.linkedin.com/in/ahmed-gamal-33988136b" target="_blank" rel="noopener">LinkedIn</a></div>
+<div class="btns"><a class="btn primary" href="#contact">Get in touch</a><a class="btn" href="https://ahmedgamal474.github.io/N8nProtfolio/" target="_blank" rel="noopener">n8n Portfolio</a><a class="btn" href="https://www.linkedin.com/in/ahmed-gamal-33988136b" target="_blank" rel="noopener">LinkedIn</a></div>
 </div>
 <svg class="flow" viewBox="0 0 480 330" role="img" aria-label="Workflow diagram: a webhook triggers an AI agent, which sends an API action">
 <path class="wire" d="M150 62 C210 62 190 165 240 165"/>
@@ -110,4 +109,27 @@ footer{padding:2rem 0 3rem;color:var(--muted);font-size:.95rem}
 <div class="grid">
 <div class="card lang"><h3>Programming & web</h3><ul class="tags"><li>C++</li><li>Java</li><li>TypeScript</li><li>Node.js</li><li>HTML</li><li>CSS</li></ul></div>
 <div class="card"><h3>AI & automation</h3><ul class="tags"><li>n8n</li><li>AI agents</li><li>Webhooks</li><li>API integration</li><li>Workflow optimization</li></ul></div>
-<div class="card"><h3>Computer science core</h3>
+<div class="card"><h3>Computer science core</h3><ul class="tags"><li>Data structures</li><li>Algorithms</li><li>OOP</li><li>Database management</li></ul></div>
+<div class="card"><h3>Tools</h3><ul class="tags"><li>MS Office</li><li>Word</li><li>Excel</li><li>PowerPoint</li><li>Outlook</li></ul></div>
+<div class="card"><h3>Working style</h3><ul class="tags"><li>Problem-solving</li><li>Team collaboration</li><li>Analytical thinking</li><li>Communication</li></ul></div>
+</div></section>
+
+<section><div class="two"><h2>Languages & interests</h2>
+<div class="grid">
+<div><h3 style="font:700 1.15rem var(--head);margin:0 0 .5rem">Languages</h3><ul class="plain"><li>Arabic: native</li><li>English: B2, independent user</li></ul></div>
+<div><h3 style="font:700 1.15rem var(--head);margin:0 0 .5rem">Career interests</h3><ul class="plain"><li>AI automation and workflow engineering</li><li>n8n integration and agentic systems</li><li>Software development and algorithmic problem solving</li><li>Process optimization and system integration</li></ul></div>
+</div></div></section>
+
+<section id="contact" class="contact"><h2>Let's talk</h2>
+<a class="big" href="mailto:ahmdgml@gmail.com">ahmdgml@gmail.com</a>
+<p style="margin:0;color:var(--muted)">(+20) 1092415481</p>
+<div class="links">
+<a class="btn primary" href="https://wa.me/201092415481" target="_blank" rel="noopener">Message on WhatsApp</a>
+<a class="btn" href="https://www.linkedin.com/in/ahmed-gamal-33988136b" target="_blank" rel="noopener">View LinkedIn profile</a>
+</div></section>
+</main>
+<footer>© <span id="y">2026</span> Ahmed Gamal</footer>
+</div>
+<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
